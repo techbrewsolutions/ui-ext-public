@@ -1,0 +1,40 @@
+{
+  "name": "UI Extension by Techbrew",
+  "uid": "ui-extension",
+  "description": "A UI extension for Techbrew",
+  "allowedUrls": [
+    "https://b115-103-89-234-77.ngrok-free.app"
+  ],
+  "auth": {
+    "redirectUrls": [
+      "http://localhost:8000/auth/callback",
+      "https://b115-103-89-234-77.ngrok-free.app/auth/callback"
+    ],
+    "requiredScopes": [
+      "oauth",
+      "crm.objects.contacts.read",
+      "crm.objects.contacts.write",
+      "crm.objects.companies.read"
+    ],
+    "optionalScopes": [],
+    "conditionallyRequiredScopes": []
+  },
+  "support": {
+    "supportEmail": "support@example.com",
+    "documentationUrl": "https://example.com/docs",
+    "supportUrl": "https://example.com/support",
+    "supportPhone": "+18005555555"
+  },
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./extensions/company-associations-card.json"
+        }
+      ]
+    }
+  },
+  "webhooks": {
+    "file": "./webhooks/webhooks.json"
+  }
+}

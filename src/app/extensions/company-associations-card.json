@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Company Associations",
+    "uid": "company-associations-card",
+    "location": "crm.record.sidebar",
+    "module": {
+      "file": "CompanyAssociationsCard.tsx"
+    },
+    "objectTypes": [
+      {
+        "name": "contacts"
+      }
+    ]
+  }
+}
