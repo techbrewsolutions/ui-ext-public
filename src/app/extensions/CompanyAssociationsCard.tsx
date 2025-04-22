@@ -21,7 +21,7 @@ interface CompanyAssociationsCardProps {
   context: any;
 }
 
-const API_BASE_URL = "https://b115-103-89-234-77.ngrok-free.app";
+const API_BASE_URL = "https://ea0f-103-89-234-77.ngrok-free.app";
 
 const CompanyAssociationsCard: React.FC<CompanyAssociationsCardProps> = ({
   actions,

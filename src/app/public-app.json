@@ -3,12 +3,12 @@
   "uid": "ui-extension",
   "description": "A UI extension for Techbrew",
   "allowedUrls": [
-    "https://b115-103-89-234-77.ngrok-free.app"
+    "https://ea0f-103-89-234-77.ngrok-free.app"
   ],
   "auth": {
     "redirectUrls": [
       "http://localhost:8000/auth/callback",
-      "https://b115-103-89-234-77.ngrok-free.app/auth/callback"
+      "https://ea0f-103-89-234-77.ngrok-free.app/auth/callback"
     ],
     "requiredScopes": [
       "oauth",
